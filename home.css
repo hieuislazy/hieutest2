@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contentGrid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========== GENERAL ========== */
+h2 {
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+h4 {
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1.4;
+}
+a:link {
+    color: blue;
+}
+a:hover {
+    color:aqua;
+}
+a:visited {
+    color: green;
+}
+a:active {
+    color: red;
+}
+
+
+/* ========== NAVIGATION ========== */
+nav {
+    width: 100%;
+    background-color: #999;
+}
+
+nav .contentGrid {
+    height: 100px;
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLeft {
+    display: flex;
+    height: 100%;
+}
+
+.navCTA {
+    background-color: #999;
+    margin: auto 20px;
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    display: block;
+    height: 80px;
+    margin: auto 0;
+}
+
+.navRight {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.ic-nav {
+    height: 24px;
+    width: 24px;
+    display: block;
+    margin: auto 20px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #dadada;
+    border-radius: 8px;
+    border: solid #777 2px;
+}
+.searchBar input {
+    height: 48px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.searchBar i {
+    margin: auto 8px auto 12px;
+}
+
+.myCart {
+    width: 48px;
+    height: 48px;
+    margin: auto 24px auto 12px;
+    border: solid 2px #777;
+    border-radius: 8px;
+}
+.myCart:hover {
+    background-color: green;;
+}
+
+i {
+    color: #999;
+    width: 24px;
+    line-height: 24px;
+}
+
+
+/* ========== HERO IMAGE ========== */
+.hero {
+    background-color: #ddd;
+    width: 100%;
+    height: 480px;
+}
+
+/* ========== BENEFITS ========== */
+.benefits {
+    background-color: #999;
+    margin-bottom: 64px;
+}
+
+.benefits .contentGrid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefits-item {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #dadada;
+}
+.benefits-item i {
+    margin-right: 8px;
+}
+
+
+/* ========== NEW PRODUCT ========== */
+.newProd {
+    background-color: #ddd;
+    margin-bottom: 64px;
+}
+
+.newProd-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBanner {
+    height: 588px;
+    width: 588px;
+    background-color: #eee;
+}
+
+.rightBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightBanner div {
+    height: 282px;
+    width: 588px;
+    background-color: #eee;
+}
+
+
+/* ========== SECTION BIKE & ITEM ========== */
+.bikes {
+    background-color: #ddd;
+    margin-bottom: 64px;
+}
+
+.itemList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: #777;
+    width: 282px;
+    position: relative;
+}
+
+.ic-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.img-item {
+    height: 282px;
+    width: 282px;
+}
+
+.item h4 {
+    margin: 12px 0 4px 0;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 12px 0;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 40px;
+}
+
+.btn-secondary {
+    width: 102px;
+    height: 40px;
+}
+
+/* ========== SECTION BLOG ========== */
+.blog {
+    margin-bottom: 64px;
+    background-color: #ddd;
+}
+
+.blog-item {
+    width: 384px;
+    background-color: #dadada;
+}
+
+.blog-date {
+    font-size: 14px;
+    color:#777;
+    text-align: left;
+    margin: 12px 12px 4px 12px;
+}
+
+.blog-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 12px 16px 12px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #ddd;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 282px;
+    background-color: rgb(158, 89, 89);
+}
+
+.verified {
+    width: 160px;
+    margin-top: 12px;
+}
+
+footer a {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.address {
+    margin-bottom: 12px;
+}
+.address a {
+    display: inline;
+}
+
+
+
